@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>343</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>321</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">display: inline-block;
+color: #33d9ff;
+font-weight: 700;
+text-decoration: none;
+user-select: none;
+padding: .5em 2em;
+outline: none;
+border: 2px solid;
+border-radius: 1px;
+transition: 0.2s;
+border-color: #33d9ff;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>321</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QPushButton" name="previos_button">
+       <property name="styleSheet">
+        <string notr="true">#previos_button {background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;  }      
+
+#previos_button:hover {background-color:  #33d9ff;}   
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/Ресурс 5.png</normaloff>icons/Ресурс 5.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pause_button">
+       <property name="styleSheet">
+        <string notr="true">#pause_button{background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;  }      
+
+#pause_button:hover {background-color:  #33d9ff;}   </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/Ресурс 3.png</normaloff>icons/Ресурс 3.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="play_button">
+       <property name="styleSheet">
+        <string notr="true">#play_button{background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;  }      
+
+#play_button:hover {background-color:  #33d9ff;}   </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/Ресурс 4.png</normaloff>icons/Ресурс 4.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="next_button">
+       <property name="styleSheet">
+        <string notr="true">#next_button{background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;  }      
+
+#next_button:hover {background-color:  #33d9ff;}   </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/Ресурс 6.png</normaloff>icons/Ресурс 6.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="repeat_button">
+       <property name="styleSheet">
+        <string notr="true">#repeat_button{background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;  }      
+
+#repeat_button:hover {background-color:  #33d9ff;}   </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/Ресурс 9.png</normaloff>icons/Ресурс 9.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="valuemin_button">
+       <property name="styleSheet">
+        <string notr="true">#valuemin_button{background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;  }      
+
+#valuemin_button:hover {background-color:  #33d9ff;}   </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/Ресурс 8.png</normaloff>icons/Ресурс 8.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="valuemax_button">
+       <property name="styleSheet">
+        <string notr="true">#valuemax_button{background-color: Transparent;
+background-repeat:no-repeat;
+border: none;
+cursor:pointer;
+overflow: hidden;  }      
+
+#valuemax_button:hover {background-color:  #33d9ff;}   </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/Ресурс 7.png</normaloff>icons/Ресурс 7.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QPushButton" name="add_button">
+       <property name="styleSheet">
+        <string notr="true">#add_button {
+display: inline-block;
+color: #33d9ff;
+font-weight: 700;
+text-decoration: none;
+user-select: none;
+padding: .5em 2em;
+outline: none;
+border: 2px solid;
+border-radius: 1px;
+transition: all 0.3s;
+border-color: #33d9ff;
+}
+
+#add_button:hover {
+	color: white;
+	background-color:#33d9ff;
+	cursor: pointer;
+}</string>
+       </property>
+       <property name="text">
+        <string>add</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="dell_button">
+       <property name="styleSheet">
+        <string notr="true">#dell_button {
+display: inline-block;
+color: #33d9ff;
+font-weight: 700;
+text-decoration: none;
+user-select: none;
+padding: .5em 2em;
+outline: none;
+border: 2px solid;
+border-radius: 1px;
+transition: all 0.3s;
+border-color: #33d9ff;
+}
+
+#dell_button:hover {
+	color: white;
+	background-color:#33d9ff;
+	cursor: pointer;
+}</string>
+       </property>
+       <property name="text">
+        <string>dell</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="change_user_button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#change_user_button {
+display: inline-block;
+color: #33d9ff;
+font-weight: 700;
+text-decoration: none;
+user-select: none;
+padding: .5em 2em;
+outline: none;
+border: 2px solid;
+border-radius: 1px;
+transition: all 0.3s;
+border-color: #33d9ff;
+}
+
+#change_user_button:hover {
+	color: white;
+	background-color:#33d9ff;
+	cursor: pointer;
+}</string>
+    </property>
+    <property name="text">
+     <string>change user</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="horizontalSlider">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>311</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::groove:horizontal {
+    height: 8px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #33d9ff, stop:1 #33d9ff);
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 white, stop:1 white);
+    border: 1px solid #5c5c5c;
+    width: 18px;
+    margin: -2px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+    border-radius: 3px;
+}</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
